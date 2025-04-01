@@ -1,20 +1,9 @@
-﻿
-<a href="https://github.com/ACLAB-HCMUT"><img src="https://raw.githubusercontent.com/ACLAB-HCMUT/Common/main/Assets/ACLAB_IMG_1.png" alt="ACLAB logo" title="ACLAB" align="right" height="100" /></a>
+1. Type of IDE: platform IO and Visual Studio Code SW
+2. Choose the appropriate environment for the board. In this Lab, I have used Yolo Uno, with some features listed in the platformio.ini file in link GitHub.
+3. The next step, build and upload code to the ESP32 coreS3
+   board. When encountering some errors or issues, so push the “reset” button to run
+   again the program and monitor serial console.
+4. The final step, monitor the change of humidity and temperature
+   on server Core IoT.
 
-[![PlatformIO Registry](https://badges.registry.platformio.org/packages/luos/library/luos_engine.svg)](https://registry.platformio.org/libraries/luos/luos_engine)
-
-<br>
-
-# Starter Kit for IoT Projects at ACLAB-HCMUT
-
-## Libraries:
-- ESPAsyncWebServer
-- SPIFFs
-- Adafruit_MQTT_Library
-
-## Manual:
-1. Enter Bootloader by Hold Boot -> Hold Reset -> Release Reset - > Release Boot.
-2. Upload Filesystem Image Using Platformio.
-3. Flash Firmware.
-4. Exit Bootloader by Pressing Reset.
-5. To build and upload filesystem image (SPIFF): Platformio Extension -> "Build Filesystem Image" -> "Upload Filesystem Image"
+demonstration video: https://drive.google.com/file/d/1hpTyUVtmQHOayjK6xo4VL0cwvWEiiqRo/view?usp=sharing

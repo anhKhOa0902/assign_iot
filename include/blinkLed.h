@@ -1,7 +1,7 @@
 #ifndef __BLINKLED_H__
 #define __BLINKLED_H__
 
-#include <Arduino.h>
+#include "main.h"
 
 #define GPIO_LED 48
 

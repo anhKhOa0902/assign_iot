@@ -1,5 +1,5 @@
-#include "../include/readDHT20.h"
-#include "../include/wifiModule.h"
+#include "readDHT20.h"
+#include "wifiModule.h"
 
 void taskReadSensor(void* ptrParameter)
 {

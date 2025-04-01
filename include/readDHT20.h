@@ -1,11 +1,7 @@
 #ifndef __SENSOR_H__
 #define __SENSOR_H__
 
-
-#include <Arduino_MQTT_Client.h>
-#include <WiFi.h>
-#include <DHT20.h>
-#include <ThingsBoard.h>
+#include "main.h"
 
 // define the position of pin in I2C protocol
 #define SDA_PIN GPIO_NUM_11
